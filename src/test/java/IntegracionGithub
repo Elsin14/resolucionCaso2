@@ -1,0 +1,33 @@
+AGREGA JaCoCO en el pom.xml
+
+# Navega a tu proyecto
+cd tu-proyecto-java
+
+# Inicializar git (si no lo has hecho)
+git init
+
+# Agregar el remote de GitHub
+git remote add origin https://github.com/tu-usuario/tu-repositorio.git
+
+# Agregar todos los archivos
+git add .
+
+# Hacer el primer commit
+git commit -m "Initial commit"
+
+# Subir a GitHub (la primera vez necesitas especificar la rama)
+# Si usas "master" en lugar de "main":
+# git push -u origin master
+
+Paso 5: AHORA SÍ - Configurar CI/CD
+Una vez que tu proyecto esté en GitHub, sigue los pasos que te mencioné anteriormente:
+
+1.- Agregar JaCoCo al pom.xml
+2.- Crear la carpeta de workflows
+3.- Crear el archivo coverage.yml
+
+Hacer commit y push de los cambios del CI/CD
+# Después de configurar el CI/CD
+git add .
+git commit -m "Add CI/CD workflow with JaCoCo coverage"
+git push origin main
